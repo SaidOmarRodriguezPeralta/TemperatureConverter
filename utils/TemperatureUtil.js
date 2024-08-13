@@ -1,4 +1,4 @@
-import { TemperatureVO } from '../valueobjects/TemperatureVO.JS';
+import { TemperatureVO } from '../valueobjects/TemperatureVO';
 
 /**
  * Converts a temperature to the unit to be converted.

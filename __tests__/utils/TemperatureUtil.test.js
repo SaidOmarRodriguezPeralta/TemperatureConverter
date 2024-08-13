@@ -1,4 +1,4 @@
-import { TemperatureVO } from '../../valueobjects/TemperatureVO.JS';
+import { TemperatureVO } from '../../valueobjects/TemperatureVO';
 import TemperatureUtil from '../../utils/TemperatureUtil';
 
 describe("TemperatureUtil unit tests", () => {
