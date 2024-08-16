@@ -6,7 +6,7 @@ import ConvertTemperatureForm from './app/ConvertTemperatureForm'
 export default function App() {
   return (
     <SafeAreaView spacing={5} style={styles.container}>
-      <AppBar title="Convertidor" />
+      <AppBar title="PPT" />
       <ConvertTemperatureForm/>
     </SafeAreaView>
   );

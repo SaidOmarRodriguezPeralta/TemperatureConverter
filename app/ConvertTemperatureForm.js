@@ -11,14 +11,14 @@ export default function ConvertTemperatureForm() {
     return (
         <MaterialStack>
             <View style={styles.headline}>
-                <Text variant="h6">Convertidor de Temperaturas</Text>
+                <Text variant="h6">Piedra, Papel, Tijeras</Text>
             </View>
             <View style={styles.inputContainer}>
-                <Text variant="body1" style={styles.fieldLabel}>Grados Celsius:</Text>
+                <Text variant="body1" style={styles.fieldLabel}>Jugador</Text>
                 <TextInput variant="standard" value={celsius} onChangeText={(text) => setCelsius(text)} />
             </View>
             <View style={styles.inputContainer}>
-                <Text variant="body1" style={styles.fieldLabel}>Grados Fahrenheit:</Text>
+                <Text variant="body1" style={styles.fieldLabel}>Computadora</Text>
                 <View style={styles.resultContainer}>
                     <Text style={styles.resultLabel}>{fahrenheit}</Text>
                 </View>
